@@ -1,0 +1,76 @@
+*{
+	box-sizing: border-box;
+}
+body {
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto;
+}
+
+p {
+	font size: 24px;
+}
+
+h1 {
+	color: #000080;
+	text-align: center;
+}
+
+h2 {
+	color: #000080;
+	text-align: center;
+}
+
+div {
+	color: #000080;
+	text-align: center;
+}
+
+}
+.centerblock{
+	background-color: #e6ff9d;
+	padding-top: 100px;
+}
+
+.square {
+	border-radius:300px;
+	height: 300px;
+	width: 300 px;
+	background-color: #e6ff9d;
+	display: inline-block;
+	margin: 40px 10px;
+}
+
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+	align-self: center;
+}
+
+.landscape {
+	height:300px
+	width: auto;
+}
+
+map {
+	zoomControl: boolean,
+	mapTypeControl: boolean,
+	scaleContol: boolean,
+	streetViewControl: boolean,
+	rotateControl: boolean
+	fullscreenControl: boolean,
+}
+
+table, 
+td {
+	border: 10px
+	border-radius: 100%;
+	text-align: center;
+}
+
+thead, td {
+	padding: 50px;
+	text-align: center;
+}

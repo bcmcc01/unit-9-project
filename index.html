@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta content="width=device-width-initialscale=1.0" name="viewport">
+	<title>Monk's Cafe</title>
+</head>
+<body>
+
+	<h1>Monk's Cafe</h1>
+<link rel="stylesheet" href="css/styles.css">
+	<p>"The Coffee Shop"</p>
+	<div class=".landscape">
+		<img id="toms-restaurant.jpg" src="http://circuits-assets.generalassemb.ly/prod/asset/5475/toms-restaurant.jpg" height="500" width="auto">
+	</div>
+
+
+
+		<header>
+			<h1>Reservations</h1>
+		</header>
+
+
+			<h2>Make a Reservation</h2>
+			<form id="reserveName">
+				<input type="text" id="newReserveName" placeholder="Name"></form>
+			<form id="reserveDate">
+				<input type="text" id="newReserveDate" placeholder="Day and Time"></form>
+				<button type="submit" class="btn">CONFIRM RESERVATION</button>
+		
+
+	<div class="centerblock">
+
+	<div class="square">
+
+		<header>
+			<h2>Existing Reservations</h2>
+		</header>
+			<table>
+				<thead>
+
+				<tr>
+					<th>Name</th>
+					<th>Day</th>
+				</tr>
+				</thead>
+				<tr>
+					<td>Jerry</td>
+					<td>Monday</td>
+				</tr>
+				<tr>
+					<td>George</td>
+					<td>Tuesday</td>
+				</tr>
+				<tr>
+					<td>Elaine</td>
+					<td>Wednesday</td>
+				</tr>
+				<tr>
+					<td>Cosmo</td>
+					<td>Thursday</td>
+				</tr>
+			</table>
+	</div>
+	<br>
+	<br>
+	
+	<br>
+
+	<style>
+		#map {
+			height: 400px; 
+			width: 100%;
+		}
+	</style>
+	<header>
+		<h1>Come Dine With Us!</h1>
+	</header>
+
+<div id="map"></div>
+<script>
+
+function initMap() {
+	var location = {lat: 40.8054491, lng: -73.9654415};
+	var map = new google.maps.Map(
+		document.getElementById('map'), {zoom: 8, center: location});
+	var marker = new google.maps.Marker({position: location, map: map});
+}
+</script>
+
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCEPwupFrrc8qj6T0oONwaDksS9g0wktqQ&callback=initMap"
+  type="text/javascript"></script>
+
+<br>
+		<header><h1>Customer Reviews</h1></header>
+
+<div class="media object section">
+	<img class="thumbnail" src="http://circuits-assets.generalassemb.ly/prod/asset/5474/jerry.jpg" height="50%" width="50%" align="left"><p>“Big lettuce, big carrots, tomatoes like volleyballs.”
+	<br>
+— Jerry Seinfeld, on The BIG Salad</p></div>
+</body>
+</html>
